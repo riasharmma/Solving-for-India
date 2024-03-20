@@ -1,0 +1,236 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav>li {
+    width: 33.33%;
+    display: block;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 24px 68px;
+}
+
+li {
+    font-size: 17px;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-black-bold {
+    color: black;
+    font-size: 22px;
+    display: block;
+    margin: auto;
+    position: relative;
+    left: 20%;
+    right: 20%;
+}
+
+.font-size-15px {
+    font-size: 15px;
+}
+
+.float-right {
+    top: 8%;
+    right: 3%;
+    position: absolute;
+}
+
+.color-white a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lg-md-screen {
+    display: block;
+    /* box-sizing: content-box; */
+}
+
+.sm-screen {
+    display: none;
+    margin: 0px;
+    padding: 9px 57px;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+@media (min-width:992px) {
+    .lg-md-screen {
+        display: block;
+
+    }
+
+
+    .sm-screen {
+        display: none;
+    }
+
+    .main-home {
+        display: block;
+    }
+
+    .main-home-sm {
+        display: none;
+    }
+
+    .width-11-sm {
+        width: 14%;
+        position: relative;
+        left: 3%;
+        top: 1%;
+        display: none;
+    }
+
+    .left-6per-right-6per-top-1per-position-absolute {
+        display: block;
+    }
+}
+
+@media(max-width:992px) {
+    .lg-md-screen {
+        display: none;
+    }
+
+    .sm-screen {
+        display: block;
+    }
+
+    .width-11-sm {
+        width: 14%;
+        position: relative;
+        left: 3%;
+        top: 1%;
+    }
+
+    .left-6per-right-6per-top-1per-position-absolute {
+        display: none;
+    }
+
+    .main-home {
+        display: none;
+    }
+
+    .main-home-sm {
+        /* display: block; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-box {
+        flex-wrap: wrap;
+    }
+
+    .card-items {
+        flex-wrap: wrap;
+
+    }
+
+    .color-white a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .text-align-end {
+        text-align: justify;
+    }
+}
+
+button {
+    font-size: 88%;
+}
+
+.bg-yellow {
+    /* background-color: #FCE205; */
+    background-color: #ffeb42;
+}
+
+.padding-49px-30px {
+
+    padding: 49px 30px;
+}
+
+.color-brown {
+
+    color: #914418;
+}
+
+.fontweight-300 {
+
+    font-weight: 300;
+}
+
+.width-6per {
+    width: 20%;
+    margin: 21px 12px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.margin-left-13per {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.align-img-left-1 {
+    right: 0%;
+    position: relative;
+}
+
+.align-img-left-2 {
+    position: relative;
+    left: 3%;
+}
+
+.width-44per {
+    width: 44%;
+}
+
+.font-size-3rem {
+    font-size: 3rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.padding-22-37 {
+    padding: 22px 37px;
+}
